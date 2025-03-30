@@ -1,7 +1,7 @@
 .intro-website{
   display: flex;
   flex-direction: column;
-  background-image: url('../Image/Facebook\ Image\ \(51\).jpg');
+  background-image: url('../Image/Facebook\ Image\ \(51\).jpeg');
   background-position-y: -250px;
   background-size: cover;
   background-repeat: no-repeat;
