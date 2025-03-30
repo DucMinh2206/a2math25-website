@@ -3,9 +3,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   column-gap: 60px;
-
   margin-left: 80px;
-
 }
 .info-containers{
   display: flex;
@@ -84,6 +82,8 @@
   color:#c01f15;
   background-color: white;
 }
-@media (min-width: 400px){
-  
+@media (max-width: 1200px){
+  .info-website{
+    grid-template-columns: 1fr;
+  }
 }
