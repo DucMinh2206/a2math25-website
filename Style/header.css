@@ -10,17 +10,17 @@
   background-color: #c01f15;
   z-index: 1;
   top: 0px;
-  height: 80px;
-  font-size: 18px;
+  height: 100px;
+  font-size: 22px;
   padding: 10px 10px;
 }
 
 .logo-container img{
-  height: 40px;
-  border-radius: 20px;
+  height: 60px;
+  border-radius: 30px;
 }
 .left-section{
-  width: 650px;
+  width: 720px;
 
   display: flex;
   flex-direction: row;
@@ -102,7 +102,7 @@
 .university-button {
   cursor: pointer;
   border: none;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 600;
   font-family: Merriweather; 
   background: none;
@@ -127,7 +127,7 @@
 .button-contact{
   font-family: Merriweather;
   border: none;
-  font-size: 22px;
+  font-size: 25px;
   background-color: #c01f15;
   color: #ffd966;
 }
