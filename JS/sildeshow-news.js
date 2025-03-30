@@ -1,3 +1,15 @@
+const images = document.querySelectorAll('img');
+
+images.forEach(img => {
+  img.setAttribute('decoding', 'async');
+  // Example: Set high priority for images in the first section
+  if (img.closest('section:first-of-type')) {
+    img.setAttribute('fetchpriority', 'high');
+  } else {
+    img.setAttribute('fetchpriority', 'low');
+  }
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const buttons = document.querySelectorAll(".university-button");
 
