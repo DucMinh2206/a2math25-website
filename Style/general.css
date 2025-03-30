@@ -1,5 +1,5 @@
 
-html, body{
+ body{
   font-family: roboto;
   padding-top: 70px;
   margin: 0px;
@@ -7,6 +7,13 @@ html, body{
   width: 100%;
   height: 100%;
   overflow-x: hidden; 
+}
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 p{
