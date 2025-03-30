@@ -1,0 +1,133 @@
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  background-color: #c01f15;
+  z-index: 1;
+  top: 0px;
+  height: 80px;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
+.logo-container img{
+  height: 40px;
+  border-radius: 20px;
+}
+.left-section{
+  width: 650px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.right-section{
+  margin-left: 50px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+}
+
+.button-contact{
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+}
+
+
+.list-containers {
+  display: inline-block;
+  position: relative;
+}
+
+/* Main dropdown */
+.aspect-containers {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  top: 100%;
+  left: 0px;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.list-containers:hover .aspect-containers {
+  display: block;
+}
+
+.sub-dropdown {
+  position: relative;
+}
+.sub-menu a {
+  text-align: center;
+  
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu div{
+  padding-left: 20px;
+}
+
+
+
+
+.sub-dropdown:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Button & Link Styles */
+.university-button {
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Merriweather; 
+  background: none;
+  color: white;
+}
+
+.aspect-containers a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  background-color: #f9eae9;
+}
+
+.aspect-containers a:hover {
+  background-color: red;
+}
+.special-text{
+  color: #ffd966;
+}
+.button-contact{
+  font-family: Merriweather;
+  border: none;
+  font-size: 22px;
+  background-color: #c01f15;
+  color: #ffd966;
+}

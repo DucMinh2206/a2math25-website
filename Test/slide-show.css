@@ -1,0 +1,17 @@
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+
+}
+.slide-image{
+  width: 30px;
+}
+.next .prev{
+  cursor: pointer;
+  transition: 0.6s ease;
+
+}
+.slide-containers{
+  max-width: 1000px;
+}

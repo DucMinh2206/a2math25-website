@@ -1,0 +1,89 @@
+.info-website{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 60px;
+
+  margin-left: 80px;
+
+}
+.info-containers{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: Open Sans;
+}
+
+.info-image{
+  height: 300px;
+}
+
+
+.info-title{
+  font-size: 30px;
+  font-weight: bold;
+  width: 500px;
+}
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  width: 600px;
+  margin-top: 40px;
+}
+.info-description{
+  margin-top: 30px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+
+.intro-to-info{
+  background-color: #c01f15;
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-left: 50px;
+  height: 80px;
+}
+.contact-us-containers{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  background-color: #c01f15;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.connect-us{
+  font-size: 22px;
+  text-align: center;
+}
+.contact-us{
+  text-align: center;
+}
+.contact-us button{
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  color: white;
+  background-color:#c01f15;
+  font-family: Merriweather;
+  border-style: solid;
+  padding: 10px;
+  transition: color 0.3 ease;
+}
+.contact-us button:hover{
+  color:#c01f15;
+  background-color: white;
+}
+@media (min-width: 400px){
+  
+}

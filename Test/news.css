@@ -1,0 +1,37 @@
+.slideshow {
+  width: 600px;
+  margin: 50px auto;
+  background-color: purple;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+.slideshow button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.slide-content {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.slide-content a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.slide-content div {
+  margin-bottom: 10px;
+}
+

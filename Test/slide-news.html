@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Slideshow</title>
+  <style>
+    .slideshow {
+      width: 600px;
+      margin: 50px auto;
+      background-color: purple;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      position: relative;
+    }
+
+    .slideshow button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 2em;
+      cursor: pointer;
+    }
+
+    .slide-content {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .slide-content a {
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .slide-content div {
+      margin-bottom: 10px;
+    }
+
+    .slide-content .title-container {
+      text-align: left;
+      flex-grow: 1;
+    }
+
+    .slide-content .title-container #slide-title {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class = "slideshow-news">
+    <button id = "previous-button"> &lt; </button>
+
+    <div class = "slide-content">
+      <div id = "slide-category"> </div>
+
+      <div class = "title-container">
+        <div id = "slide-title"> </div>
+      </div>
+      
+      <button> <a id = "slide-read-more" href = "#"> </a> Read </button> 
+
+    </div>
+    <button id = "next-button"> &gt; </button>
+
+  </div>
+
+  <script>
+const slides = [
+    {
+    category: "NEWS",
+    title: "Thời gian thi chung học phổ thông",
+    readMoreLink: "#"
+    },
+
+    {
+      category: "Events",
+      title: "Thời gian thi chung học phổ thông",
+      readMoreLink: "#"
+    }
+];
+    let currentSlideIndex = 0;
+
+    function renderSlide() {
+      const slide = slides[currentSlideIndex];
+      document.getElementById("slide-category").textContent = slide.category;
+      document.getElementById("slide-title").textContent = slide.title;
+      document.getElementById("slide-read-more").href = slide.readMoreLink;
+    }
+
+    function nextSlide() {
+      currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+      renderSlide();
+    }
+
+    function previousSlide() {
+      currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+      renderSlide();
+    }
+
+    renderSlide();
+
+    document.getElementById("prev-button").addEventListener("click", previousSlide);
+    document.getElementById("next-button").addEventListener("click", nextSlide);
+  </script>
+
+</body>
+</html>
