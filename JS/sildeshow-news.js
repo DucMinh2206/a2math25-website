@@ -45,10 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      category: "Events",
-      title: "Thời gian thi chung học phổ thông",
+      category: "NEWS",
+      title: "Thời gian xét tuyển nguyện vọng",
       readMoreLink: "#"
     }
+    
 ];
 let currentSlideIndex = 0;
 
@@ -66,6 +67,9 @@ function prevSlide(){
   currentSlideIndex = (currentSlideIndex - 1) % slides.length;
   renderSlide()
 }
-renderSlide();
+
 document.getElementById("previous-button").addEventListener("click", prevSlide);
 document.getElementById("next-button").addEventListener("click", nextSlide);
+
+setInterval(nextSlide, 2000);
+renderSlide();

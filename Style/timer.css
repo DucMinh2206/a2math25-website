@@ -1,6 +1,6 @@
 .timer-container{
   height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Image/Text\ Background\ Image\ by\ Joanna\ Kosinska.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Image/Red\ Gradient\ Background.jpg);
   background-size: cover;
   background-position: center;
   display: flex;

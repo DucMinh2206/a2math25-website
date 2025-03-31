@@ -1,18 +1,19 @@
 .slideshow-news {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
   padding: 20px;
-  background-color:  #f9eae9;
+  background-color: white;
+  color: black;
+  height: 100px;
 }
 
 .previous-but,.next-but{
   background: none;
   border: none;
   color: black;
-  font-size: 2em;
+  font-size: 50px;
   cursor: pointer;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .slide-category-text{
-  font-size: 22px;
+  font-size: 30px;
   padding-top: 12px;
 }
 
@@ -34,16 +35,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 25px;
+  font-size: 50px;
   padding-top: 20px;
 }
 .slide-content a {
   border: 0;
 }
+
 .read-more-button{
   color: white;
-  font-size: 25px;
-  background-color: #c01f15;;
+  font-size: 30px;
+  background-color: #c01f15;
 
   padding-top: 8px;
   padding-bottom: 8px;
