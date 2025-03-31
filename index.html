@@ -10,7 +10,7 @@
     <link rel = "stylesheet" href = "Style/general.css">
     <link rel = "stylesheet" href = "Style/intro.css">
     <link rel = "stylesheet" href = "Style/info.css">
-    <link rel = "stylesheet" href = "Style/news.css">
+    <link rel = "stylesheet" href = "Style/timer.css">
     <link rel = "stylesheet" href = "Style/slideshow-news.css">
     <link rel = "stylesheet" href = "Style/slideshow-image.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,6 +121,35 @@
 
     <div class = "intro-website">
     </div>
+
+    <div class = "timer-container">
+      <span class = "timer-title"> Đếm Ngược Kỳ thi THPT</span>
+
+       <div class = "timer-box">
+        <div class = "time">
+          <h2 id = "days"> 00 </h2>
+          <p> Ngày </p>
+        </div>
+
+        <div class = "time">
+          <h2 id = "hours"> 00 </h2>
+          <p> Giờ </p>
+        </div>
+
+        <div class = "time">
+          <h2 id = "minutes"> 00 </h2>
+          <p> Phút </p>
+        </div>
+
+        <div class = "time">
+          <h2 id = "seconds"> 00 </h2>
+          <p> Giây </p>
+        </div>
+
+       </div>
+    </div>
+
+    <script src = "timer.js"></script>
 
     
     <div class = "image-carousel">
@@ -281,5 +310,6 @@
 
     <script src = "JS/slideshow-image.js"></script>
     <script src = "JS/sildeshow-news.js"></script>
+    <script src = "JS/timer.js"></script>
   </body>
 </html>
