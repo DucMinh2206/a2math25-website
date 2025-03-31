@@ -1,5 +1,7 @@
 
-
+button{
+  font-family: Merriweather;
+}
 body{
   font-family: roboto;
   padding-top: 80px;
