@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
   font-size: 30px;
-  padding-top: 20px;
+  padding-top: 10px
 }
 .slide-content a {
   border: 0;
@@ -46,11 +46,11 @@
   color: white;
   font-size: 30px;
   background-color: #c01f15;
-
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   cursor: pointer;
   border: none;
   border-radius: 4px;
