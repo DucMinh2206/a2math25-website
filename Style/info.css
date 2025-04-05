@@ -3,22 +3,25 @@
   grid-template-columns: 1fr 1fr;
   text-align: center;
   justify-content: center;
-  column-gap: 60px;
   font-family: Merriweather;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .info-containers{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-
-  margin-top: 100px;
-  margin-bottom: 100px;
+  justify-content: top;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .info-title{
   font-size: 40px; 
   font-weight: bold;
-  width: 500px;
+  width: 700px;
+}
+.info-image-containers{
+  height: 800px;
 }
 
 .info-content {
