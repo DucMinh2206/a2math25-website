@@ -8,7 +8,7 @@
   align-items: center; 
   justify-content: center;
   color: #fff;
-  font-family: be vietnam pro;
+  font-family: sriracha;
   margin-top: 10px;
 }
 .timer-title{
@@ -24,8 +24,9 @@
   text-align: center;
 }
 .time p{
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 100;
+  font-family: sriracha;
 }
 .time h2{
   font-size: 5rem;
