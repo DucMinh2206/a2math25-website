@@ -6,6 +6,7 @@
   font-family: Merriweather;
   margin-left: 50px;
   margin-right: 50px;
+  row-gap: 30px;
 }
 .info-containers{
   display: flex;
@@ -16,12 +17,20 @@
   margin-bottom: 50px;
 }
 .info-title{
-  font-size: 40px; 
+  font-size: 45px; 
   font-weight: bold;
-  width: 700px;
+  width: 800px;
+}
+.info-image{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 .info-image-containers{
   height: 800px;
+  width: 850px;
+  display: flex;
+  justify-content: center;
 }
 
 .info-content {
@@ -34,10 +43,11 @@
 }
 .info-description{
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 35px;
   display: flex;
   flex-direction: column;
   line-height: 1.5;
+  width: 800px;
 }
 
 
@@ -53,22 +63,23 @@
 }
 .contact-us-containers{
   display: grid;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 1fr 1fr;
   background-color: #c01f15;
-  height: 80px;
+  height: 100px;
   align-items: center;
   justify-content: center;
   color: white;
 }
 .connect-us{
-  font-size: 22px;
+  font-size: 30px;
+  font-weight: 500px;
   text-align: center;
 }
 .contact-us{
   text-align: center;
 }
 .contact-us button{
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   border: none;
   color: white;

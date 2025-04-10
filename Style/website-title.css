@@ -7,7 +7,7 @@
   flex-direction: column;
   color: #fff;
   font-family: Sriracha;
-  padding: 80px 0px 0px 80px;
+  padding: 80px 0px 50px 50px;
 }
 .web-title{
   font-size: 5rem;
@@ -21,14 +21,14 @@
   gap: 40px;
 }
 .web-description-title{
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 100;
-  font-family: be vietnam pro;
+  font-family: sriracha;
   text-align: left;
 }
 .web-description{
-  font-size: 2rem;
-  font-weight: 100;
-  font-family: be vietnam pro;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
   text-align: left;
 }
